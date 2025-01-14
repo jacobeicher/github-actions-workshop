@@ -1,9 +1,9 @@
-using Azure.Identity;
+using Azure.Identity;h
 using Microsoft.ApplicationInsights.Extensibility;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
-using WorkshopDemo.Core.Common;
+using WorkshopDemos.Core.Common;
 using WorkshopDemo.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
