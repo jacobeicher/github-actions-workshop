@@ -3,7 +3,7 @@ using Microsoft.ApplicationInsights.Extensibility;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
-using WorkshopDemos.Core.Common;
+using WorkshopDemo.Core.Common;
 using WorkshopDemo.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
